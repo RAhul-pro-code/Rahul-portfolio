@@ -20,3 +20,6 @@ Live URL (once Pages is configured):
 Notes
 - Update project links in `index.html` if repository names change.
 - You can also deploy to Vercel or Netlify for more features.
+
+Resume
+- A placeholder resume `assets/resume.pdf` has been added. Replace it with your actual PDF named `resume.pdf` inside the `assets/` folder to enable the download button on the site.
