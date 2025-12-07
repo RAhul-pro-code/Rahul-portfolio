@@ -203,3 +203,48 @@ scrollTopBtn.addEventListener('click', () => {
 // 8. CONSOLE MESSAGE
 console.log('%c🚀 Welcome to Rahul H Portfolio!', 'color: #6366f1; font-size: 20px; font-weight: bold;');
 console.log('%cMade with ❤️ | Full Stack Developer', 'color: #ec4899; font-size: 14px;');
+
+// 9. RESUME PREVIEW MODAL
+const previewBtn = document.getElementById('previewResumeBtn');
+const resumeModal = document.getElementById('resumeModal');
+const resumeModalClose = document.getElementById('resumeModalClose');
+const resumeFrame = document.getElementById('resumeFrame');
+
+function openResumeModal() {
+    if (!resumeModal) return;
+    resumeModal.classList.add('show');
+    resumeModal.setAttribute('aria-hidden', 'false');
+    // set src to ensure latest file is loaded
+    resumeFrame.src = 'assets/resume.pdf';
+    // prevent background scroll
+    document.body.style.overflow = 'hidden';
+}
+
+function closeResumeModal() {
+    if (!resumeModal) return;
+    resumeModal.classList.remove('show');
+    resumeModal.setAttribute('aria-hidden', 'true');
+    // unload iframe to free memory
+    resumeFrame.src = '';
+    document.body.style.overflow = '';
+}
+
+if (previewBtn) {
+    previewBtn.addEventListener('click', () => {
+        openResumeModal();
+    });
+}
+
+if (resumeModalClose) resumeModalClose.addEventListener('click', closeResumeModal);
+
+// clicking overlay closes modal
+document.addEventListener('click', (e) => {
+    if (e.target && e.target.getAttribute && e.target.getAttribute('data-close') === 'true') {
+        closeResumeModal();
+    }
+});
+
+// close on ESC
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeResumeModal();
+});

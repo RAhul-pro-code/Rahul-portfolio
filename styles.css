@@ -688,3 +688,71 @@ body {
         max-width: 300px;
     }
 }
+
+/* Resume preview modal styles */
+.resume-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
+.resume-modal.show {
+    display: flex;
+}
+.resume-modal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(2,6,23,0.6);
+    backdrop-filter: blur(4px);
+}
+.resume-modal-content {
+    position: relative;
+    width: min(1100px, 95%);
+    height: min(820px, 90%);
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 30px 60px rgba(2,6,23,0.45);
+    padding: 1rem 1rem 1.25rem;
+    z-index: 2001;
+    display: flex;
+    flex-direction: column;
+}
+.resume-modal-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    font-weight: 700;
+}
+.resume-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+.resume-frame-wrap {
+    flex: 1 1 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+.resume-frame-wrap iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Button variant for preview */
+.btn-outline {
+    background: transparent;
+    color: var(--text-primary);
+    border: 2px solid var(--primary-color);
+}
+.btn-outline:hover {
+    background: rgba(99,102,241,0.08);
+}

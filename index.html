@@ -202,6 +202,7 @@
             <div class="contact-links">
                 <a href="mailto:rahulbasvaraj@gmail.com" class="btn btn-primary">Send Email</a>
                 <a href="assets/resume.pdf" download class="btn btn-secondary">Download Resume</a>
+                <button id="previewResumeBtn" class="btn btn-outline">Preview Resume</button>
                 <a href="https://linkedin.com/in/rahul-h-3355b729a" target="_blank" class="social-link">LinkedIn</a>
                 <a href="tel:+919900920521" class="social-link">Call: +91 99009 20521</a>
                 <a href="https://github.com/Rahul-pro-code" target="_blank" class="social-link">GitHub</a>
@@ -215,6 +216,18 @@
             <p>&copy; 2025 Rahul H. All rights reserved. | Based in Bengaluru, Karnataka</p>
         </div>
     </footer>
+
+    <!-- Resume preview modal -->
+    <div id="resumeModal" class="resume-modal" aria-hidden="true">
+        <div class="resume-modal-overlay" data-close="true"></div>
+        <div class="resume-modal-content" role="dialog" aria-modal="true" aria-labelledby="resumeTitle">
+            <button class="resume-modal-close" id="resumeModalClose" aria-label="Close resume preview">✕</button>
+            <h3 id="resumeTitle" class="resume-modal-title">Resume — Rahul H</h3>
+            <div class="resume-frame-wrap">
+                <iframe id="resumeFrame" src="assets/resume.pdf" title="Resume PDF" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
