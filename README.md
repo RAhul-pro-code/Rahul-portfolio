@@ -4,6 +4,17 @@ Welcome to my professional portfolio! This is a fully responsive, dynamic websit
 
 ---
 
+## 🎯 Quick Access for Recruiters
+
+> **👉 [CLICK HERE TO VIEW MY PORTFOLIO](https://RAhul-pro-code.github.io/portfolio)** ⭐
+
+### Direct Contact & Links
+| 📋 Resume | 💼 LinkedIn | 💻 GitHub | 📧 Email | 📱 Phone |
+|-----------|-----------|-----------|----------|----------|
+| [Download](assets/resume.pdf) | [View Profile](https://linkedin.com/in/rahul-h-3355b729a) | [My Projects](https://github.com/RAhul-pro-code) | [rahulbasvaraj@gmail.com](mailto:rahulbasvaraj@gmail.com) | [+91 99009 20521](tel:+919900920521) |
+
+---
+
 ## 👨‍💻 About Me
 
 **Motivated and detail-oriented Computer Science Engineering graduate** from Sri Venkateshwara College of Engineering, Bengaluru (2025). Highly skilled in **Java, Spring Boot, MySQL, REST APIs, and modern web technologies** with comprehensive hands-on experience in full-stack development, backend systems, and machine learning solutions.
