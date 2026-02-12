@@ -8,6 +8,9 @@ Welcome to my professional portfolio! This is a fully responsive, dynamic websit
 
 > **👉 [CLICK HERE TO VIEW MY PORTFOLIO](https://raw.githack.com/RAhul-pro-code/Rahul-portfolio/main/index.html)** ⭐
 
+**BACKUP LINK (if above doesn't work):**
+> **🔗 [Alternative Portfolio Link](https://htmlpreview.github.io/?https://github.com/RAhul-pro-code/Rahul-portfolio/blob/main/index.html)** ✅
+
 ### Direct Contact & Links
 | 📋 Resume | 💼 LinkedIn | 💻 GitHub | 📧 Email | 📱 Phone |
 |-----------|-----------|-----------|----------|----------|
@@ -330,6 +333,20 @@ python server.py
 - **Portfolio Design:** Custom built with modern web standards
 - **Hosting:** GitHub Pages
 - **Built with:** ❤️ by Rahul H
+
+---
+
+## 🔗 Portfolio Links (Multiple Options)
+
+**PRIMARY LINK:**
+- https://raw.githack.com/RAhul-pro-code/Rahul-portfolio/main/index.html
+
+**BACKUP LINKS:**
+- https://htmlpreview.github.io/?https://github.com/RAhul-pro-code/Rahul-portfolio/blob/main/index.html
+- Local: `http://localhost:8000` (run `python server.py` in project directory)
+
+**Repository:**
+- https://github.com/RAhul-pro-code/Rahul-portfolio
 
 ---
 
