@@ -6,7 +6,7 @@ Welcome to my professional portfolio! This is a fully responsive, dynamic websit
 
 ## 🎯 Quick Access for Recruiters
 
-> **👉 [CLICK HERE TO VIEW MY PORTFOLIO](https://cdn.jsdelivr.net/gh/RAhul-pro-code/Rahul-portfolio@main/index.html)** ⭐
+> **👉 [CLICK HERE TO VIEW MY PORTFOLIO](https://raw.githack.com/RAhul-pro-code/Rahul-portfolio/main/index.html)** ⭐
 
 ### Direct Contact & Links
 | 📋 Resume | 💼 LinkedIn | 💻 GitHub | 📧 Email | 📱 Phone |
@@ -273,7 +273,7 @@ my portfolio/
 
 This repository includes a **GitHub Actions workflow** that automatically deploys to GitHub Pages on every push to `main`.
 
-**Live URL:** `https://cdn.jsdelivr.net/gh/RAhul-pro-code/Rahul-portfolio@main/index.html`
+**Live URL:** `https://raw.githack.com/RAhul-pro-code/Rahul-portfolio/main/index.html`
 
 ### Manual Deployment Options
 
