@@ -6,7 +6,7 @@ Welcome to my professional portfolio! This is a fully responsive, dynamic websit
 
 ## 🎯 Quick Access for Recruiters
 
-> **👉 [CLICK HERE TO VIEW MY PORTFOLIO](https://RAhul-pro-code.github.io/portfolio)** ⭐
+> **👉 [CLICK HERE TO VIEW MY PORTFOLIO](https://RAhul-pro-code.github.io/Rahul-portfolio)** ⭐
 
 ### Direct Contact & Links
 | 📋 Resume | 💼 LinkedIn | 💻 GitHub | 📧 Email | 📱 Phone |
@@ -273,7 +273,7 @@ my portfolio/
 
 This repository includes a **GitHub Actions workflow** that automatically deploys to GitHub Pages on every push to `main`.
 
-**Live URL:** `https://RAhul-pro-code.github.io/portfolio`
+**Live URL:** `https://RAhul-pro-code.github.io/Rahul-portfolio`
 
 ### Manual Deployment Options
 
